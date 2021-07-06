@@ -140,7 +140,7 @@ define FORMIO_SOURCE_REPO_BRANCH
 endef
 
 define SOURCE_REPOSITORY_REF
-"main"
+"formsUpgrade"
 endef
 
 define SOURCE_CONTEXT_DIR
