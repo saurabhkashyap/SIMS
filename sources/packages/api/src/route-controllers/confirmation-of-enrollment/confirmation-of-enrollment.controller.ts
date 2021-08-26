@@ -17,6 +17,7 @@ import {
 import { Application } from "../../database/entities";
 import { COESummaryDTO } from "../application/models/application.model";
 
+console.log(new Date(), "+++++CURRENT DATE");
 @AllowAuthorizedParty(AuthorizedParties.institution)
 @Controller("institution/location")
 export class ConfirmationOfEnrollmentController {

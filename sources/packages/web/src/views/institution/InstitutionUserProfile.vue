@@ -59,6 +59,7 @@ export default {
 
     // Hooks
     onMounted(async () => {
+      console.log(new Date(), "+++++CURRENT DATE");
       const institutionUser = await UserService.shared.getInstitutionUser();
       if (institutionUser) {
         initialData.value = {
